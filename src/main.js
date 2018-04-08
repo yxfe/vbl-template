@@ -2,7 +2,7 @@ import Vue from 'vue';
 import VueResource from 'vue-resource';
 import VueRouter from 'vue-router';
 import app from './components/app';
-import {plugins, options} from './plugins';
+import plugins from './plugins';
 import routes from './routes';
 import * as filters from 'utils/filters';
 
